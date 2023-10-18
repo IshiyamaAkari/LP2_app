@@ -501,10 +501,10 @@ li {
   }
   .header-wrap__nav__list__item a {
     line-height: 3;
-    font-size: 16px;
+    font-size: 18px;
   }
   .header-wrap__nav__list__item.__app {
-    width: 15vw;
+    width: 150px;
     border-radius: 50px;
   }
   body.nav-open header .drawer {
