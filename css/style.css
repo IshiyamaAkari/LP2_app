@@ -49,8 +49,8 @@ li {
   font-weight:500;
   color: #000;
   text-align: center;
-  width:20%;
-  font-size:15px;
+  width:25%;
+  font-size:16px;
 }
 .header-wrap__nav__list__item a:hover {
   opacity: 0.5;
@@ -61,6 +61,7 @@ li {
 .__app a{
   width:100%;
   background-color: #E63746;
+  padding:0 2%;
   border-radius: 30px;
   line-height: 3;
   color: #FFF;
@@ -500,11 +501,22 @@ li {
   }
   .header-wrap__nav__list__item a {
     line-height: 3;
-    font-size: 2vw;
+    font-size: 16px;
   }
   .header-wrap__nav__list__item.__app {
     width: 15vw;
     border-radius: 50px;
+  }
+  body.nav-open header .drawer {
+  border-top: 0;
+  }
+  body.nav-open header .drawer::before {
+  top: 9px;
+  transform: rotate(-45deg);
+  }
+  body.nav-open header .drawer::after {
+  top: 9px;
+  transform: rotate(45deg);
   }
   .use-wrap__con__block{
     display: block;
